@@ -1,0 +1,85 @@
+.box {
+    min-height: 80vh;
+    min-width: 60vw;
+    border: 3px solid skyblue;
+    border-radius: 1rem;
+    box-shadow: 0 0 10rem skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.mainInputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainInputs input  {
+    width: 50%;
+    margin: 0.5rem;
+    height: 1.5rem;
+    text-align: center;
+}
+.cardInputs{
+    padding: 0 1rem ;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:inset 0 0 1rem rgb(114, 114, 114);
+    background-color:  rgba(215, 215, 215, 0.296);
+    border-radius: 0.5rem;
+}
+.cardInputs input{
+    width: 35%;
+    margin: 0.5rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.commentCard {
+    margin: 0.5rem;
+    min-height: 3rem;
+    width: 80%;
+    box-shadow: 0 0 10px skyblue;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+}
+.smallCommentCard{
+    margin: 0.5rem;
+    min-height: 3rem;
+    width: 70%;
+    box-shadow: 0 0 10px skyblue;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+}
+.commentarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.commentarea h1 {
+    font-size: 1.2rem;
+    color: rgb(252, 163, 163);
+    margin: 0 1rem ;
+}
+
+.commentarea p {
+    font-size: 1rem;
+}
